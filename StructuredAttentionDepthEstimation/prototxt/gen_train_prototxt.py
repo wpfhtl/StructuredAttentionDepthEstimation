@@ -4,6 +4,8 @@ Structured Attention Network with Caffe NetSpec generation
 Base Network: ResNet50.
 '''
 import sys
+caffe_root = '../..'
+sys.path.insert(0, caffe_root + '/python')
 import caffe
 from caffe import layers as L, params as P
 
